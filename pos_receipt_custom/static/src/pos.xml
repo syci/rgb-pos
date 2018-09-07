@@ -30,15 +30,15 @@
             <hr/>
         </t>
 
-        <!-- Add company vat -->
+        <!-- Add company vat (Remove for l10n_pos_es)
         <t t-jquery="t[t-esc='widget.pos.company.name']" t-operation="after">
             <t t-if="widget.pos.company.vat">
                 <br/>
                 VAT: <t t-esc='widget.pos.company.vat'/>
             </t>
         </t>
-
-        <!-- Add Customer info -->
+	-->
+        <!-- Add Customer info (Remove for l10n_pos_es)
         <t t-jquery="t[t-esc='widget.pos.shop.name']" t-operation="after">
             <t t-if="order.get_client()">
                 <br/>
@@ -56,5 +56,6 @@
                 <hr/>
             </t>
         </t>
+	-->
     </t>
 </templates>
